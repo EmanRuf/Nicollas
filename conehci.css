@@ -1,0 +1,45 @@
+body{
+    color: white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid purple;
+    transform: rotate(-90deg);
+}
+.nick{
+    text-align: center;
+}
+h1{
+    color: red;
+}
+h2{
+    color: rgb(138, 4, 4);
+}
+h3{
+    color: blueviolet;
+}
+p{
+    color: mediumpurple;
+}
+.container{
+    padding: 0px 50px;
+}
+nav a:hover {
+  color: red;
+}
